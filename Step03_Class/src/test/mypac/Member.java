@@ -1,11 +1,11 @@
 package test.mypac;
 
 public class Member {
-	//번호 필드
+	//번호를 저장할 필드
 	public int num;
-	//이름 필드
+	//이름을 저장할 필드
 	public String name;
-	//주소 필드
+	//주소를 저장할 필드
 	public String addr;
 	
 	//메소드
