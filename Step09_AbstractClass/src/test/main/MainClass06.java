@@ -4,7 +4,7 @@ import test.mypac.Weapon;
 
 public class MainClass06 {
 	
-	static Weapon w1=new Weapon() {		
+	static Weapon w1=new Weapon() {//new Weapon+ctrl+space로 편하게 만들수 있다.
 		@Override
 		public void attack() {
 			System.out.println("편하게 공격해요");
