@@ -22,8 +22,8 @@ public class MainClass04 {
 			tmp.drive();
 		}
 		System.out.println("---- Consumer 인터페이스를 활용하면 ----");
-		cars.forEach((Car)->{
-			Car.drive();
+		cars.forEach((item)->{
+			item.drive();
 		});
 		
 	}
