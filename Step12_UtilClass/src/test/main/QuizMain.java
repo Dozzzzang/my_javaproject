@@ -23,12 +23,15 @@ public class QuizMain {
 		 */
 		Scanner scan = new Scanner(System.in);
 		System.out.print("검색할 단어를 입력하세요:");
-		String str=scan.nextLine();
-		String result = dic.get(str);
-		if (result == null) {
-			System.out.println(str+" 는 목록에 없습니다.");		
-		}else {
-			System.out.println(str+" 의 뜻은 "+dic.get(str)+" 입니다.");
+		String word=scan.nextLine();
+		//입력받은 단어를 Map 의 key 값으로 활용해서 value 값을 읽어와 본다.
+		//해당 key 값으로 저장된 value 가 없을수도 있다
+		String result = dic.get(word);
+		if (result == null) {//만일 찾는 단어가 없으면
+			System.out.println(word+" 는 목록에 없습니다.");		
+		}else {//찾는 단어가 있으면
+			//해당 key 값으로 저장된 value 값을 읽어온다.
+			System.out.println(word+" 의 뜻은 "+result+" 입니다.");
 		};
 	}
 }
