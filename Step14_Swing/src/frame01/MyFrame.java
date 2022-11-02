@@ -10,7 +10,7 @@ public class MyFrame extends JFrame{
 		super(title);
 		// 프레임의 초기 설정 작업하기
 		this.setBounds(100, 100, 500, 500);
-		// 프레임(MyFrame)의 x 버튼 (close 버튼) 을 눌렀을때 프로세스도 같이 종료 되도록 설정
+		// 이 프레임(MyFrame)의 x 버튼 (close 버튼) 을 눌렀을때 프로세스도 같이 종료 되도록 설정
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 레이아웃 매니저는 아직 사용하지 않겠다 (모든 UI 를 절대 좌표에 배치 하겠다)
 		this.setLayout(null);
