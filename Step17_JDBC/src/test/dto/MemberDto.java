@@ -11,12 +11,13 @@ public class MemberDto {
 	
 
 	public MemberDto(int num, String name, String addr) {
+		//우클릭 Source -> Generate Constructor Using Fields
 		super();
 		this.num = num;
 		this.name = name;
 		this.addr = addr;
 	}
-
+	//우클릭 Source -> Generate Getters and Setters
 	public int getNum() {
 		return num;
 	}
