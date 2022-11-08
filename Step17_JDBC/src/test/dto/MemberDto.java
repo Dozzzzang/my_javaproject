@@ -8,6 +8,7 @@ public class MemberDto {
 	
 	//디폴트 생성자
 	public MemberDto() {}
+	
 
 	public MemberDto(int num, String name, String addr) {
 		super();

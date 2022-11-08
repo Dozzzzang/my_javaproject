@@ -12,8 +12,8 @@ import test.util.DBConnect;
 public class MainClass09 {
 	public static void main(String[] args) {
 		//추가할 회원의 정보
-		String name="원숭이";
-		String addr="동물원";
+		String name="누구게3";
+		String addr="어디게3";
 		
 		//추가할 회원의 정보를 MemberDto 객체에 담아서
 		MemberDto dto=new MemberDto();
